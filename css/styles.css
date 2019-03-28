@@ -1,0 +1,7 @@
+#maleA, #maleL, #femA, #femL {
+  display: none;
+}
+
+.show{
+  visibility: visible;
+}
