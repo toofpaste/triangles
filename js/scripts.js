@@ -20,7 +20,7 @@ $(function(){
   }else if(gender === 2 && life === 4){
     $("#femL").removeClass();
     $("#femL").toggle();
-  }else alert("Fuck me in the ass because i love jesus");
+  }else alert("Nothing");
 
 };
 
