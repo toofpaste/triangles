@@ -3,6 +3,8 @@ $(function(){
   $("form#select").submit(function(event){
       var gender = parseInt($("#gender").val());
       var life = parseInt($("#life").val());
+      console.log(gender);
+      console.log(life);
       if(gender === 1 && life === 3){
         $("#maleA").removeClass();
         $("#maleL, #femL, #femA").addClass("hide");
